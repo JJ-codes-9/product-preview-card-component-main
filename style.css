@@ -1,0 +1,91 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: hsl(30, 38%, 92%);
+}
+
+.product-box {
+	display: flex;
+	margin: 25vh auto 0;
+	overflow-wrap: break-word;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 10px;
+	height: 50vh;
+	width: 40vw;
+}
+
+img {
+	height: 50vh;
+	border-radius: 10px;
+}
+
+.right-column {
+	padding: 8%;
+}
+
+.category-name {
+	font-family: Fraunces, sans-serif;
+	font-weight: lighter;
+	font-size: 0.9rem;
+	letter-spacing: 0.3rem;
+}
+
+.product-name {
+	font-family: Montserrat, Verdana;
+	font-weight: 800;
+	margin-top: 4%;
+}
+
+.description {
+	font-family: Fraunces;
+	line-height: 1.5;
+	color: #808080;
+	margin-top: 6%;
+}
+
+.price {
+	font-weight: 900;
+	font-size: 2rem;
+	color: #008000;
+	margin-top: 6%;
+}
+
+.original-price {
+	font-size: 0.8rem;
+	color: #808080;
+	text-decoration: line-through;
+	margin-bottom: 50%;
+}
+
+button {
+	background-color: #008000;
+	color: #faebd7;
+	border-radius: 6px;
+	width: 100%;
+	padding: 5%;
+    margin-top: 10%;
+}
+
+button:hover {
+	background-color: #646d64;
+}
+
+.attribution {
+	margin-top: 5%;
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
